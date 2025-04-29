@@ -1,6 +1,6 @@
 .header {
   min-height: 90vh;
-  background-image: url("/images/main_banner4.png");
+  background-image: url("/img/main_banner4.png");
   background-size: cover;
   background-position: center;
   color: var(--primary-text-color);

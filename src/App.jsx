@@ -2,7 +2,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
-import { Contato } from "./pages/Contato";
+// import { Contato } from "./pages/Contato";
+import { Time } from "./pages/Time";
+
 
 function App() {
   return (
@@ -11,7 +13,8 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<></>} />
-          <Route path="/contato" element={<Contato />} />
+          {/* <Route path="/contato" element={<Contato />} /> */}
+          <Route path="/time" element={<Time />} />
         </Routes>
         <Footer />
       </Router>
